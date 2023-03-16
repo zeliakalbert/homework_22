@@ -66,14 +66,42 @@
       ],
       "value": ""
     }, {
-      "id": "ddfa6e68-9513-4873-8d50-b35cd4b0c07b",
+      "id": "24902f7e-f6f3-4ab5-b237-32edb31dab14",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"error\"]",
+      "targets": [
+        ["css=*[data-test=\"error\"]", "css:data-attr"],
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Epic sadface: Sorry, this user has been locked out.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb41529-854f-4c36-bacb-77f5af887423",
       "comment": "",
       "command": "verifyText",
-      "target": "css=.login_wrapper-inner",
+      "target": "css=*[data-test=\"error\"]",
       "targets": [
-        ["css=.login_wrapper-inner", "css:finder"],
-        ["xpath=//div[@id='root']/div/div[2]/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div", "xpath:position"]
+        ["css=*[data-test=\"error\"]", "css:data-attr"],
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Epic sadface: Sorry, this user has been locked out.')]", "xpath:innerText"]
+      ],
+      "value": "Epic sadface: Sorry, this user has been locked out."
+    }, {
+      "id": "dcf4da2c-5882-46b0-ad71-dad8fe236939",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=*[data-test=\"error\"]",
+      "targets": [
+        ["css=*[data-test=\"error\"]", "css:data-attr"],
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='login_button_container']/div/form/div[3]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Epic sadface: Sorry, this user has been locked out.')]", "xpath:innerText"]
       ],
       "value": "Epic sadface: Sorry, this user has been locked out."
     }]
@@ -137,6 +165,17 @@
         ["xpath=//input[@id='login-button']", "xpath:attributes"],
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab22da2-406b-4910-a649-ff40253606d5",
+      "comment": "click on description",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(1) .inventory_item_desc",
+      "targets": [
+        ["css=.inventory_item:nth-child(1) .inventory_item_desc", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -241,6 +280,17 @@
       ],
       "value": "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."
     }, {
+      "id": "05af5176-1cac-4611-bcea-17503ab8cb55",
+      "comment": "click on description",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(2) .inventory_item_desc",
+      "targets": [
+        ["css=.inventory_item:nth-child(1) .inventory_item_desc", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "a546fbe8-a743-4f4e-9f96-243daf450c52",
       "comment": "verify description for Sauce Labs Bike Light",
       "command": "verifyText",
@@ -343,6 +393,17 @@
         ["xpath=//input[@id='login-button']", "xpath:attributes"],
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "995c2dc8-cdec-4c2b-9305-46473b561539",
+      "comment": "click on description",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(3) .inventory_item_desc",
+      "targets": [
+        ["css=.inventory_item:nth-child(1) .inventory_item_desc", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -451,6 +512,17 @@
       ],
       "value": ""
     }, {
+      "id": "1176c33c-0fba-44f1-8a8f-57a984b5c00c",
+      "comment": "click on description",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(4) .inventory_item_desc",
+      "targets": [
+        ["css=.inventory_item:nth-child(1) .inventory_item_desc", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "af51bbf3-2afe-4933-b9c2-001fbdd006a4",
       "comment": "verify description for Sauce Labs Fleece Jacket",
       "command": "verifyText",
@@ -552,6 +624,17 @@
       ],
       "value": ""
     }, {
+      "id": "4e9d4fc4-afcb-43fc-b994-ad569e9ae604",
+      "comment": "click on description",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(5) .inventory_item_desc",
+      "targets": [
+        ["css=.inventory_item:nth-child(1) .inventory_item_desc", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
       "id": "f233d7e5-55c1-4fa2-bf8d-4da1478a8172",
       "comment": "verify description for Sauce Labs Onesie",
       "command": "verifyText",
@@ -650,6 +733,17 @@
         ["xpath=//input[@id='login-button']", "xpath:attributes"],
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "143119f1-9b9d-4a58-9dcc-f8c9a670d7ca",
+      "comment": "click on description",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(6) .inventory_item_desc",
+      "targets": [
+        ["css=.inventory_item:nth-child(1) .inventory_item_desc", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/div/div", "xpath:position"]
       ],
       "value": ""
     }, {
